@@ -4,6 +4,8 @@ $username = "root";
 $password = "";
 $dbname = "gestioncompte";
 
+echo "test devops";
+
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
 // Check connection
